@@ -1,0 +1,9 @@
+.container {
+	width: 100%;
+	padding: 0 28px;
+	margin: 0 auto;
+
+	@include mq("desktop", min) {
+		max-width: 1170px;
+	}
+}
